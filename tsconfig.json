@@ -1,0 +1,17 @@
+{
+  "extends": "./node_modules/gts/tsconfig-google.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "types": ["@types/node", "@types/muchi-ts"],
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "lib": ["es6", "dom"],
+    "moduleResolution": "node",
+    "target": "es5"
+  },
+  "include": [
+    "src/*.ts"
+  ],
+  "exclude": ["node_modules/typescript", "build"],
+}

@@ -1,0 +1,40 @@
+{
+  "name": "machi-fault-tolerance",
+  "version": "0.0.0",
+  "description": "Fault tolerance patterns in JavaScript",
+  "main": "dist/src/index.js",
+  "author": "Manyanda Chitimbo <manyanda.chitimbo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "muchi -t test",
+    "coverage": "nyc npm test",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc -p .",
+    "fix": "gts fix",
+    "posttest": "yarn run check"
+  },
+  "devDependencies": {
+    "gts": "1.1.0",
+    "husky": "3.0.5",
+    "muchi-ts": "2.3.7",
+    "typescript": "3.6.2",
+    "@types/node": "10.0.3"
+  },
+  "keywords": [
+    "fault",
+    "tolerance",
+    "fault tolerance",
+    "resilience",
+    "api"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn test"
+    }
+  },
+  "repository": {
+    "url": "https://github.com/machi1990/machi-fault-tolerance-js",
+    "type": "git"
+  }
+}
