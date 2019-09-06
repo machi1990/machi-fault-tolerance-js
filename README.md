@@ -105,7 +105,7 @@ const Retry = retry({
 const result = await Retry(() => {
     // do something
 }, null); // return result of execution of a given funcion or throws an error
-
+```
 
 # Author
 Manyanda Chitimbo <manyanda.chitimbo@gmail.com>
