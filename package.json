@@ -1,6 +1,6 @@
 {
   "name": "machi-fault-tolerance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fault tolerance patterns in JavaScript",
   "main": "dist/src/index.js",
   "author": "Manyanda Chitimbo <manyanda.chitimbo@gmail.com>",
